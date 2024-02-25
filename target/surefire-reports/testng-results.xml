@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-23T13:25:29 PST" name="Surefire suite" finished-at="2024-02-23T13:25:30 PST" duration-ms="1495">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.salesforce.runner.TestRunner@527e5409]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-02-23T13:25:29 PST" name="Surefire test" finished-at="2024-02-23T13:25:30 PST" duration-ms="1495">
+      <class name="com.salesforce.runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.salesforce.runner.TestRunner@527e5409]" started-at="2024-02-23T13:25:29 PST" name="setUpClass" finished-at="2024-02-23T13:25:29 PST" duration-ms="690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2fdf17dc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.salesforce.runner.TestRunner@527e5409]" started-at="2024-02-23T13:25:29 PST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-23T13:25:30 PST" duration-ms="706" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Error Message when Password is empty"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null
+at com.tekarch.salesforce.pages.base.BasePage.getPagetitle(BasePage.java:204)
+at com.tekarch.salesforce.pages.login.LoginPage.getTitleOfThePage(LoginPage.java:42)
+at stepdef.Login_stepdef.user_is_on_landing_page(Login_stepdef.java:35)
+at ✽.User is on Landing Page(file:///Users/nitin/eclipseworkspace/Java/SalesforceTekarch_CucumberAutomation/src/test/resources/Features/Login.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.salesforce.runner.TestRunner@527e5409]" started-at="2024-02-23T13:25:30 PST" name="tearDownClass" finished-at="2024-02-23T13:25:30 PST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.salesforce.runner.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

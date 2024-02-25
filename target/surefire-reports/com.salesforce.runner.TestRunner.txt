@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.salesforce.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.850 s <<< FAILURE! -- in com.salesforce.runner.TestRunner
+com.salesforce.runner.TestRunner.runScenario["Validate Error Message when Password is empty", "Login Page Functionality"](1) -- Time elapsed: 0.708 s <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null
+	at com.tekarch.salesforce.pages.base.BasePage.getPagetitle(BasePage.java:204)
+	at com.tekarch.salesforce.pages.login.LoginPage.getTitleOfThePage(LoginPage.java:42)
+	at stepdef.Login_stepdef.user_is_on_landing_page(Login_stepdef.java:35)
+	at ✽.User is on Landing Page(file:///Users/nitin/eclipseworkspace/Java/SalesforceTekarch_CucumberAutomation/src/test/resources/Features/Login.feature:4)
+
