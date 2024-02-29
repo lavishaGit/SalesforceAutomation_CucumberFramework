@@ -8,6 +8,7 @@ import org.testng.Assert;
 import com.salesforce.utility.Constants;
 import com.salesforce.utility.ExtentUtility;
 import com.salesforce.utility.PropertyUtility;
+import com.tekarch.salesforce.pages.base.BasePage;
 import com.tekarch.salesforce.pages.home.HomePage;
 import com.tekarch.salesforce.pages.login.ForgotPasswordPage;
 import com.tekarch.salesforce.pages.login.LoginPage;
@@ -16,6 +17,7 @@ import com.tekarch.salesforce.pages.login.ResetPassPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.reactivex.rxjava3.observers.BaseTestConsumer;
 
 public class Login_stepdef {
 	protected static ExtentUtility loginStepDefReportlog = ExtentUtility.getinstance();
@@ -25,13 +27,11 @@ public class Login_stepdef {
 	HomePage homePage;
 	ResetPassPage resetPage;
 	ForgotPasswordPage forgotPassPage;
+WebDriver driver= Hooks.getDriver();
 
-	/*
-	 * private BaseTest baseTest; WebDriver
-	 * 
-	 * public Login_stepdef(BaseTest basetest) { this .baseTest=basetest;
-	 * driver=BaseTest.getDriver(); }
-	 */
+
+	
+
 	@Given("User is on Landing Page")
 	public void user_is_on_landing_page() throws Exception {
 
@@ -41,7 +41,7 @@ public class Login_stepdef {
 		String expTitle = "Login | Salesforce";
 		// String
 		// actTitle=pageManagerObjects.getLoginPageInstance().getTitleOfThePage();
-		login = new LoginPage(Hooks.driver);
+		login = new LoginPage(Hooks.getDriver());
 		String actTitle = login.getTitleOfThePage();
 
 		try {
@@ -56,8 +56,7 @@ public class Login_stepdef {
 			// reportlog.logTestfailwithException(e);
 			throw e;
 		}
-		loginPageLog.info("All Assertons passed");
-		loginStepDefReportlog.logTestInfo("All Assertons passed");
+		
 	}
 
 	@When("User enters  valid {string} in a User name field")
@@ -80,7 +79,7 @@ public class Login_stepdef {
 	public void clicks_login_button() {
 		// Write code here that turns the phrase above into concrete actions
 		loginStepDefReportlog.logTestInfo(null);
-		Hooks.driver = login.clickElement("login button");
+		Hooks.setDriver(login.clickElement("login button"));
 		loginStepDefReportlog.logTestInfo("clicks login button");
 
 	}
@@ -118,7 +117,7 @@ public class Login_stepdef {
 		// Write code here that turns the phrase above into concrete actions
 		System.out.println("Verify user should  remain on a Login Page");
 		String expectedText = "Login | Salesforce";
-		String pageSource = Hooks.driver.getPageSource();
+		String pageSource = Hooks.getDriver().getPageSource();
 
 		if (pageSource.contains(expectedText)) {
 			loginPageLog.info("Expected text '" + expectedText + "' found on the page.");
@@ -147,7 +146,7 @@ public class Login_stepdef {
 	@Then("User should redirects to Home Page")
 	public void user_should_redirects_to_home_page() {
 		// Write code here that turns the phrase above into concrete actions
-		homePage = new HomePage(Hooks.driver);
+		homePage = new HomePage(Hooks.getDriver());
 		loginPageLog.info("User is lands to the Home Page");
 		loginStepDefReportlog.logTestInfo("User is lands to the Home Page");
 
@@ -215,7 +214,7 @@ public class Login_stepdef {
 		loginPageLog.info("All Assertons passed");
 		loginStepDefReportlog.logTestInfo("All Assertons passed");
 
-		Hooks.driver = homePage.logout();
+		Hooks.setDriver(homePage.logout());
 	}
 
 	@Then("Verify User redirects to the login page with  prefilled {string} in  username field")
@@ -245,8 +244,8 @@ public class Login_stepdef {
 
 	@Then("clicks Forgot Password button")
 	public void clicks_forgot_password_button() throws Exception {
-		Hooks.driver = login.clickForgotBttn("Forgot Button");
-		forgotPassPage = new ForgotPasswordPage(Hooks.driver);
+		Hooks.setDriver(login.clickForgotBttn("Forgot Button"));
+		forgotPassPage = new ForgotPasswordPage(Hooks.getDriver());
 
 		String expTitle = "Forgot Your Password | Salesforce";
 		String actTitle = forgotPassPage.getTitleOfThePage();
@@ -278,13 +277,13 @@ public class Login_stepdef {
 	@Then("clicks on Continue button")
 	public void clicks_on_continue_button() {
 		// Write code here that turns the phrase above into concrete actions
-		Hooks.driver = forgotPassPage.clickContinueBttn("Continue ");
+		Hooks.setDriver(forgotPassPage.clickContinueBttn("Continue "));
 	}
 
 	@Then("Verify User redirects to the Reset Password Page with Page Title {string}")
 	public void verify_user_redirects_to_the_reset_password_page_with_message(String expTitle1) {
 		// Write code here that turns the phrase above into concrete actions
-		resetPage = new ResetPassPage(Hooks.driver);
+		resetPage = new ResetPassPage(Hooks.getDriver());
 		String actTitle1 = forgotPassPage.getTitleOfThePage();
 
 		try {

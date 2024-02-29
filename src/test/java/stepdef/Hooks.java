@@ -39,14 +39,16 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Hooks {
 
+private static	WebDriver driver = null;
 
-public static WebDriver driver;
+//private static WebDriver driver;
 	protected static  ExtentUtility reportlog = ExtentUtility.getinstance();
 
 	protected static Logger myBaseTestLog = LogManager.getLogger();
 
 	// protected Alert alert;
 	// protected WebDriver driver=null;
+	
 	//@Parameters({ "browser" })
 @BeforeAll
 public static void beforeAll() {
@@ -60,7 +62,7 @@ public static void beforeAll() {
 	public void setUpEachScenario(	Scenario scenario) throws Exception {
 		myBaseTestLog.info(".........Before setUp executed --------------");
 		reportlog.startExtentCreateReport(scenario.getName());
-		initializeBrowser("chrome");
+	initializeBrowser("chrome");
 
 String url = PropertyUtility.readdatatofile(Constants.applicationPropertyPath, "url");
 		baseURL(url);
@@ -77,7 +79,7 @@ String url = PropertyUtility.readdatatofile(Constants.applicationPropertyPath, "
 		reportlog.logTestInfo("******tearDownAftereachScenario executed***********");
 
 	}
-	public static WebDriver getDriver() {
+/*	public static WebDriver getDriver() {
         if (driver == null) {
             // Initialize WebDriver (Chrome in this example)
 			WebDriverManager.chromedriver().setup();
@@ -86,7 +88,7 @@ String url = PropertyUtility.readdatatofile(Constants.applicationPropertyPath, "
         }
       
         return driver;
-        }
+        }*/
 	
 	
 	
@@ -94,7 +96,7 @@ String url = PropertyUtility.readdatatofile(Constants.applicationPropertyPath, "
         public void AddScreenshotAfterEachScenario(Scenario scenario) throws IOException {
       	//  File  srcFile;
       if( scenario.isFailed()) {
-    	 File  srcFile=  ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+    	 File  srcFile=  ((TakesScreenshot)getDriver()).getScreenshotAs(OutputType.FILE);
    byte[] srcBytes= FileUtils.readFileToByteArray(srcFile);
       scenario.attach(srcBytes, "image/png", "image");
     
@@ -125,9 +127,8 @@ String url = PropertyUtility.readdatatofile(Constants.applicationPropertyPath, "
 			driver = new ChromeDriver();
 			reportlog.logTestInfo("New Session started");
 			}
-	   
-
-		} else if (browser.equalsIgnoreCase("firefox")) {
+	  
+	} else if (browser.equalsIgnoreCase("firefox")) {
 
 			// System.setProperty("webdriver.chrome.driver",
 			// "/Users/nitin/Downloads/Drivers/geckodriver");
@@ -155,7 +156,7 @@ String url = PropertyUtility.readdatatofile(Constants.applicationPropertyPath, "
 
 		// maximize the browser
 
-	}
+}
 
 	/*public void initialSetup() {
 
@@ -202,16 +203,16 @@ String url = PropertyUtility.readdatatofile(Constants.applicationPropertyPath, "
   //      BaseTest.driver = driver;
   //  }
 	public void driverClose() {
-		driver.close();
+		getDriver().close();
 		myBaseTestLog.info("browser is closed");
 		// reportlog.logTestInfo( "browser is closed");
-		driver = null;
-		Assert.assertNull(driver);
+		setDriver(null);
+		Assert.assertNull(getDriver());
 	}
 
 	public static void baseURL(String url) throws Exception {
 		try {
-			driver.get(url);
+			getDriver().get(url);
 			myBaseTestLog.info(url + " is entered");
 			/// reportlog.logTestInfo( "Valid URL is launched ");
 		} catch (Exception e) {
@@ -228,7 +229,19 @@ String url = PropertyUtility.readdatatofile(Constants.applicationPropertyPath, "
 	public void waitUntilPageLoads() {
 		myBaseTestLog.info("Waiting until page loads within  expectedtime period");
 		// reportlog.logTestInfo("Waiting until page loads within expectedtime period");
-		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
+		getDriver().manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
+	}
+
+
+
+	public static WebDriver getDriver() {
+		return driver;
+	}
+
+
+
+	public static void setDriver(WebDriver driver) {
+		Hooks.driver = driver;
 	}
 
 }

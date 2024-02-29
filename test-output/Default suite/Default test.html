@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/5/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Feb 25 14:02:27 PST 2024</td>
+<td>Started on:</td><td>Sun Feb 25 18:16:59 PST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>33 seconds (33587 ms)</td>
+<tr><td>Total time:</td><td>2 seconds (2397 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -77,28 +77,83 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.salesforce.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.salesforce.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate User login sucessfully", "Optional[Login Page Functionality]"</td>
-<td></td>
-<td>10</td>
-<td>com.salesforce.runner.TestRunner@740cae06</td></tr>
-<tr>
-<td title='com.salesforce.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.salesforce.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Error Message when Password is empty", "Optional[Login Page Functionality]"</td>
-<td></td>
-<td>5</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getTitle()&quot; because &quot;this.driver&quot; is null
+	at com.tekarch.salesforce.pages.base.BasePage.getPagetitle(BasePage.java:204)
+	at com.tekarch.salesforce.pages.login.LoginPage.getTitleOfThePage(LoginPage.java:44)
+	at stepdef.Login_stepdef.user_is_on_landing_page(Login_stepdef.java:46)
+	at ✽.User is on Landing Page(file:///Users/nitin/eclipseworkspace/Java/SalesforceTekarch_CucumberAutomation/src/test/resources/Features/Login.feature:4)
+</pre></div><a href='#' onClick='toggleBox("stack-trace79121205", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace79121205'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getTitle()&quot; because &quot;this.driver&quot; is null
+	at com.tekarch.salesforce.pages.base.BasePage.getPagetitle(BasePage.java:204)
+	at com.tekarch.salesforce.pages.login.LoginPage.getTitleOfThePage(LoginPage.java:44)
+	at stepdef.Login_stepdef.user_is_on_landing_page(Login_stepdef.java:46)
+	at ✽.User is on Landing Page(file:///Users/nitin/eclipseworkspace/Java/SalesforceTekarch_CucumberAutomation/src/test/resources/Features/Login.feature:4)
+</pre></div></td>
+<td>0</td>
 <td>com.salesforce.runner.TestRunner@740cae06</td></tr>
 <tr>
 <td title='com.salesforce.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.salesforce.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate User can  Reset the forgot password", "Optional[Login Page Functionality]"</td>
-<td></td>
-<td>3</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getTitle()&quot; because &quot;this.driver&quot; is null
+	at com.tekarch.salesforce.pages.base.BasePage.getPagetitle(BasePage.java:204)
+	at com.tekarch.salesforce.pages.login.LoginPage.getTitleOfThePage(LoginPage.java:44)
+	at stepdef.Login_stepdef.user_is_on_landing_page(Login_stepdef.java:46)
+	at ✽.User is on Landing Page(file:///Users/nitin/eclipseworkspace/Java/SalesforceTekarch_CucumberAutomation/src/test/resources/Features/Login.feature:4)
+</pre></div><a href='#' onClick='toggleBox("stack-trace393549265", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace393549265'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getTitle()&quot; because &quot;this.driver&quot; is null
+	at com.tekarch.salesforce.pages.base.BasePage.getPagetitle(BasePage.java:204)
+	at com.tekarch.salesforce.pages.login.LoginPage.getTitleOfThePage(LoginPage.java:44)
+	at stepdef.Login_stepdef.user_is_on_landing_page(Login_stepdef.java:46)
+	at ✽.User is on Landing Page(file:///Users/nitin/eclipseworkspace/Java/SalesforceTekarch_CucumberAutomation/src/test/resources/Features/Login.feature:4)
+</pre></div></td>
+<td>0</td>
 <td>com.salesforce.runner.TestRunner@740cae06</td></tr>
 <tr>
-<td title='com.salesforce.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.salesforce.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Error Message when Password is invalid", "Optional[Login Page Functionality]"</td>
-<td></td>
-<td>3</td>
+<td title='com.salesforce.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.salesforce.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Error Message when Password is empty", "Optional[Login Page Functionality]"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getTitle()&quot; because &quot;this.driver&quot; is null
+	at com.tekarch.salesforce.pages.base.BasePage.getPagetitle(BasePage.java:204)
+	at com.tekarch.salesforce.pages.login.LoginPage.getTitleOfThePage(LoginPage.java:44)
+	at stepdef.Login_stepdef.user_is_on_landing_page(Login_stepdef.java:46)
+	at ✽.User is on Landing Page(file:///Users/nitin/eclipseworkspace/Java/SalesforceTekarch_CucumberAutomation/src/test/resources/Features/Login.feature:4)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2118413714", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2118413714'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getTitle()&quot; because &quot;this.driver&quot; is null
+	at com.tekarch.salesforce.pages.base.BasePage.getPagetitle(BasePage.java:204)
+	at com.tekarch.salesforce.pages.login.LoginPage.getTitleOfThePage(LoginPage.java:44)
+	at stepdef.Login_stepdef.user_is_on_landing_page(Login_stepdef.java:46)
+	at ✽.User is on Landing Page(file:///Users/nitin/eclipseworkspace/Java/SalesforceTekarch_CucumberAutomation/src/test/resources/Features/Login.feature:4)
+</pre></div></td>
+<td>1</td>
 <td>com.salesforce.runner.TestRunner@740cae06</td></tr>
 <tr>
 <td title='com.salesforce.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.salesforce.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate User Sees Username After Relogin with Remember Me Checked", "Optional[Login Page Functionality]"</td>
-<td></td>
-<td>9</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getTitle()&quot; because &quot;this.driver&quot; is null
+	at com.tekarch.salesforce.pages.base.BasePage.getPagetitle(BasePage.java:204)
+	at com.tekarch.salesforce.pages.login.LoginPage.getTitleOfThePage(LoginPage.java:44)
+	at stepdef.Login_stepdef.user_is_on_landing_page(Login_stepdef.java:46)
+	at ✽.User is on Landing Page(file:///Users/nitin/eclipseworkspace/Java/SalesforceTekarch_CucumberAutomation/src/test/resources/Features/Login.feature:4)
+</pre></div><a href='#' onClick='toggleBox("stack-trace768669591", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace768669591'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getTitle()&quot; because &quot;this.driver&quot; is null
+	at com.tekarch.salesforce.pages.base.BasePage.getPagetitle(BasePage.java:204)
+	at com.tekarch.salesforce.pages.login.LoginPage.getTitleOfThePage(LoginPage.java:44)
+	at stepdef.Login_stepdef.user_is_on_landing_page(Login_stepdef.java:46)
+	at ✽.User is on Landing Page(file:///Users/nitin/eclipseworkspace/Java/SalesforceTekarch_CucumberAutomation/src/test/resources/Features/Login.feature:4)
+</pre></div></td>
+<td>0</td>
+<td>com.salesforce.runner.TestRunner@740cae06</td></tr>
+<tr>
+<td title='com.salesforce.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.salesforce.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Error Message when Password is invalid", "Optional[Login Page Functionality]"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getTitle()&quot; because &quot;this.driver&quot; is null
+	at com.tekarch.salesforce.pages.base.BasePage.getPagetitle(BasePage.java:204)
+	at com.tekarch.salesforce.pages.login.LoginPage.getTitleOfThePage(LoginPage.java:44)
+	at stepdef.Login_stepdef.user_is_on_landing_page(Login_stepdef.java:46)
+	at ✽.User is on Landing Page(file:///Users/nitin/eclipseworkspace/Java/SalesforceTekarch_CucumberAutomation/src/test/resources/Features/Login.feature:4)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1130656047", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1130656047'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getTitle()&quot; because &quot;this.driver&quot; is null
+	at com.tekarch.salesforce.pages.base.BasePage.getPagetitle(BasePage.java:204)
+	at com.tekarch.salesforce.pages.login.LoginPage.getTitleOfThePage(LoginPage.java:44)
+	at stepdef.Login_stepdef.user_is_on_landing_page(Login_stepdef.java:46)
+	at ✽.User is on Landing Page(file:///Users/nitin/eclipseworkspace/Java/SalesforceTekarch_CucumberAutomation/src/test/resources/Features/Login.feature:4)
+</pre></div></td>
+<td>0</td>
 <td>com.salesforce.runner.TestRunner@740cae06</td></tr>
 </table><p>
 </body>

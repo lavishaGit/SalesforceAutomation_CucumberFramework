@@ -1758,3 +1758,416 @@
 20240225 14:03:00 INFO  [main] stepdef.Login_stepdef Login_stepdef.java134 - All Assertons passed
 20240225 14:03:00 INFO  [main] stepdef.Hooks Hooks.java206 - browser is closed
 20240225 14:03:00 INFO  [main] stepdef.Hooks Hooks.java76 - ******tearDownAftereachScenario executed***********
+20240225 17:49:03 INFO  [main] stepdef.Login_stepdef Login_stepdef.java44 - ........ Initialized a  driver and launched Url successfully---------------
+20240225 17:49:03 INFO  [main] stepdef.Login_stepdef Login_stepdef.java44 - ........ Initialized a  driver and launched Url successfully---------------
+20240225 17:49:03 INFO  [main] stepdef.Login_stepdef Login_stepdef.java44 - ........ Initialized a  driver and launched Url successfully---------------
+20240225 17:49:03 INFO  [main] stepdef.Login_stepdef Login_stepdef.java44 - ........ Initialized a  driver and launched Url successfully---------------
+20240225 17:49:03 INFO  [main] stepdef.Login_stepdef Login_stepdef.java44 - ........ Initialized a  driver and launched Url successfully---------------
+20240225 17:53:18 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 17:53:19 INFO  [main] stepdef.Hooks Hooks.java124 - Browser instance has started
+20240225 17:53:21 INFO  [main] stepdef.Hooks Hooks.java216 - https://login.salesforce.com/ is entered
+20240225 17:53:21 INFO  [main] stepdef.Hooks Hooks.java230 - Waiting until page loads within  expectedtime period
+20240225 17:53:21 INFO  [main] stepdef.Login_stepdef Login_stepdef.java40 - ........ Initialized a  driver and launched Url successfully---------------
+20240225 17:53:21 INFO  [main] stepdef.Login_stepdef Login_stepdef.java50 - Login | Salesforce  matched with Login | Salesforce
+20240225 17:53:21 INFO  [main] stepdef.Login_stepdef Login_stepdef.java60 - All Assertons passed
+20240225 17:53:22 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (c43100dea3bbc26231aa145f8dfbed21)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240225 17:53:22 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240225 17:53:22 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (c43100dea3bbc26231aa145f8dfbed21)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240225 17:53:23 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240225 17:53:23 INFO  [main] stepdef.Login_stepdef Login_stepdef.java76 - Enter empty data
+20240225 17:53:23 INFO  [main] base.BasePage BasePage.java68 - login buttonIs enabled and clicked
+20240225 17:53:23 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = Please enter your password.
+20240225 17:53:23 INFO  [main] stepdef.Login_stepdef Login_stepdef.java98 - Please enter your password.  matched with Please enter your password.
+20240225 17:53:23 INFO  [main] stepdef.Login_stepdef Login_stepdef.java112 - All Assertons passed
+20240225 17:53:23 INFO  [main] stepdef.Login_stepdef Login_stepdef.java125 - Expected text 'Login | Salesforce' found on the page.
+20240225 17:53:23 INFO  [main] stepdef.Login_stepdef Login_stepdef.java135 - All Assertons passed
+20240225 17:53:24 INFO  [main] stepdef.Hooks Hooks.java207 - browser is closed
+20240225 17:53:24 INFO  [main] stepdef.Hooks Hooks.java78 - ******tearDownAftereachScenario executed***********
+20240225 17:53:24 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 17:53:24 INFO  [main] stepdef.Hooks Hooks.java124 - Browser instance has started
+20240225 17:53:25 INFO  [main] stepdef.Hooks Hooks.java216 - https://login.salesforce.com/ is entered
+20240225 17:53:25 INFO  [main] stepdef.Hooks Hooks.java230 - Waiting until page loads within  expectedtime period
+20240225 17:53:25 INFO  [main] stepdef.Login_stepdef Login_stepdef.java40 - ........ Initialized a  driver and launched Url successfully---------------
+20240225 17:53:25 INFO  [main] stepdef.Login_stepdef Login_stepdef.java50 - Login | Salesforce  matched with Login | Salesforce
+20240225 17:53:25 INFO  [main] stepdef.Login_stepdef Login_stepdef.java60 - All Assertons passed
+20240225 17:53:25 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (d755af2cb8005057de500c6c4d2f8a4e)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240225 17:53:26 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240225 17:53:26 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (d755af2cb8005057de500c6c4d2f8a4e)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240225 17:53:26 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240225 17:53:29 INFO  [main] base.BasePage BasePage.java68 - login buttonIs enabled and clicked
+20240225 17:53:29 INFO  [main] stepdef.Login_stepdef Login_stepdef.java152 - User is lands to the Home Page
+20240225 17:53:31 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = Home
+20240225 17:53:31 INFO  [main] stepdef.Login_stepdef Login_stepdef.java164 - Expected text Home matches to the Actual Text: Home
+20240225 17:53:31 INFO  [main] stepdef.Login_stepdef Login_stepdef.java175 - All Assertons passed
+20240225 17:53:31 INFO  [main] stepdef.Hooks Hooks.java207 - browser is closed
+20240225 17:53:31 INFO  [main] stepdef.Hooks Hooks.java78 - ******tearDownAftereachScenario executed***********
+20240225 17:53:31 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 17:53:31 INFO  [main] stepdef.Hooks Hooks.java124 - Browser instance has started
+20240225 17:53:33 INFO  [main] stepdef.Hooks Hooks.java216 - https://login.salesforce.com/ is entered
+20240225 17:53:33 INFO  [main] stepdef.Hooks Hooks.java230 - Waiting until page loads within  expectedtime period
+20240225 17:53:33 INFO  [main] stepdef.Login_stepdef Login_stepdef.java40 - ........ Initialized a  driver and launched Url successfully---------------
+20240225 17:53:33 INFO  [main] stepdef.Login_stepdef Login_stepdef.java50 - Login | Salesforce  matched with Login | Salesforce
+20240225 17:53:33 INFO  [main] stepdef.Login_stepdef Login_stepdef.java60 - All Assertons passed
+20240225 17:53:33 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (1f7a8519a928e77e4f511e1d07c1106a)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240225 17:53:33 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240225 17:53:33 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (1f7a8519a928e77e4f511e1d07c1106a)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240225 17:53:34 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240225 17:53:34 INFO  [main] stepdef.Login_stepdef Login_stepdef.java185 - Password is entered
+20240225 17:53:34 INFO  [main] base.BasePage BasePage.java68 - Remember Me check box Is enabled and clicked
+20240225 17:53:34 INFO  [main] stepdef.Login_stepdef Login_stepdef.java189 - Remember Me check box clicked 
+20240225 17:53:36 INFO  [main] base.BasePage BasePage.java68 - login buttonIs enabled and clicked
+20240225 17:53:36 INFO  [main] stepdef.Login_stepdef Login_stepdef.java152 - User is lands to the Home Page
+20240225 17:53:36 INFO  [main] stepdef.Login_stepdef Login_stepdef.java198 - User  redirects to Home Page
+20240225 17:53:36 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 17:53:36 ERROR [main] stepdef.Hooks Hooks.java219 - Error occurred while navigating to URL: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.184)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Nitins-MacBook-Pro.local', ip: '2601:646:8084:4d20:0:0:0:ca3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.184, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: /var/folders/gx/qjsbcn6d6d3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56182}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f7a8519a928e77e4f511e1d07c1106a
+20240225 17:53:36 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 17:53:36 ERROR [main] stepdef.Hooks Hooks.java219 - Error occurred while navigating to URL: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.184)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Nitins-MacBook-Pro.local', ip: '2601:646:8084:4d20:0:0:0:ca3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.184, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: /var/folders/gx/qjsbcn6d6d3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56182}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f7a8519a928e77e4f511e1d07c1106a
+20240225 17:54:34 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 17:54:34 INFO  [main] stepdef.Hooks Hooks.java124 - Browser instance has started
+20240225 17:54:37 INFO  [main] stepdef.Hooks Hooks.java216 - https://login.salesforce.com/ is entered
+20240225 17:54:37 INFO  [main] stepdef.Hooks Hooks.java230 - Waiting until page loads within  expectedtime period
+20240225 17:54:37 INFO  [main] stepdef.Login_stepdef Login_stepdef.java40 - ........ Initialized a  driver and launched Url successfully---------------
+20240225 17:54:38 INFO  [main] stepdef.Hooks Hooks.java207 - browser is closed
+20240225 17:54:38 INFO  [main] stepdef.Hooks Hooks.java78 - ******tearDownAftereachScenario executed***********
+20240225 17:54:38 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 17:54:38 INFO  [main] stepdef.Hooks Hooks.java124 - Browser instance has started
+20240225 17:54:40 INFO  [main] stepdef.Hooks Hooks.java216 - https://login.salesforce.com/ is entered
+20240225 17:54:40 INFO  [main] stepdef.Hooks Hooks.java230 - Waiting until page loads within  expectedtime period
+20240225 17:54:40 INFO  [main] stepdef.Login_stepdef Login_stepdef.java40 - ........ Initialized a  driver and launched Url successfully---------------
+20240225 17:54:40 INFO  [main] stepdef.Hooks Hooks.java207 - browser is closed
+20240225 17:54:40 INFO  [main] stepdef.Hooks Hooks.java78 - ******tearDownAftereachScenario executed***********
+20240225 17:54:40 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 17:54:40 INFO  [main] stepdef.Hooks Hooks.java124 - Browser instance has started
+20240225 17:54:42 INFO  [main] stepdef.Hooks Hooks.java216 - https://login.salesforce.com/ is entered
+20240225 17:54:42 INFO  [main] stepdef.Hooks Hooks.java230 - Waiting until page loads within  expectedtime period
+20240225 17:54:42 INFO  [main] stepdef.Login_stepdef Login_stepdef.java40 - ........ Initialized a  driver and launched Url successfully---------------
+20240225 17:54:42 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 17:54:42 ERROR [main] stepdef.Hooks Hooks.java219 - Error occurred while navigating to URL: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.184)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Nitins-MacBook-Pro.local', ip: '2601:646:8084:4d20:0:0:0:ca3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.184, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: /var/folders/gx/qjsbcn6d6d3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56281}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3ee42aff763e87c9064912535f851e70
+20240225 17:54:42 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 17:54:42 ERROR [main] stepdef.Hooks Hooks.java219 - Error occurred while navigating to URL: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.184)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Nitins-MacBook-Pro.local', ip: '2601:646:8084:4d20:0:0:0:ca3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.184, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: /var/folders/gx/qjsbcn6d6d3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56281}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3ee42aff763e87c9064912535f851e70
+20240225 17:57:15 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 17:57:15 INFO  [main] stepdef.Hooks Hooks.java124 - Browser instance has started
+20240225 17:57:17 INFO  [main] stepdef.Hooks Hooks.java216 - https://login.salesforce.com/ is entered
+20240225 17:57:17 INFO  [main] stepdef.Hooks Hooks.java230 - Waiting until page loads within  expectedtime period
+20240225 17:57:17 INFO  [main] stepdef.Login_stepdef Login_stepdef.java39 - ........ Initialized a  driver and launched Url successfully---------------
+20240225 17:57:17 INFO  [main] stepdef.Login_stepdef Login_stepdef.java49 - Login | Salesforce  matched with Login | Salesforce
+20240225 17:57:17 INFO  [main] stepdef.Login_stepdef Login_stepdef.java59 - All Assertons passed
+20240225 17:57:17 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (28bfb8b18b8351d1cdf998062ee53507)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240225 17:57:18 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240225 17:57:18 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (28bfb8b18b8351d1cdf998062ee53507)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240225 17:57:19 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240225 17:57:19 INFO  [main] stepdef.Login_stepdef Login_stepdef.java75 - Enter empty data
+20240225 17:57:19 INFO  [main] base.BasePage BasePage.java68 - login buttonIs enabled and clicked
+20240225 17:57:19 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = Please enter your password.
+20240225 17:57:19 INFO  [main] stepdef.Login_stepdef Login_stepdef.java97 - Please enter your password.  matched with Please enter your password.
+20240225 17:57:19 INFO  [main] stepdef.Login_stepdef Login_stepdef.java111 - All Assertons passed
+20240225 17:57:19 INFO  [main] stepdef.Login_stepdef Login_stepdef.java124 - Expected text 'Login | Salesforce' found on the page.
+20240225 17:57:19 INFO  [main] stepdef.Login_stepdef Login_stepdef.java134 - All Assertons passed
+20240225 17:57:20 INFO  [main] stepdef.Hooks Hooks.java207 - browser is closed
+20240225 17:57:20 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 17:57:20 ERROR [main] stepdef.Hooks Hooks.java219 - Error occurred while navigating to URL: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Nitins-MacBook-Pro.local', ip: '2601:646:8084:4d20:0:0:0:ca3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.184, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: /var/folders/gx/qjsbcn6d6d3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 28bfb8b18b8351d1cdf998062ee53507
+20240225 17:57:20 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 17:57:20 ERROR [main] stepdef.Hooks Hooks.java219 - Error occurred while navigating to URL: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Nitins-MacBook-Pro.local', ip: '2601:646:8084:4d20:0:0:0:ca3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.184, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: /var/folders/gx/qjsbcn6d6d3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 28bfb8b18b8351d1cdf998062ee53507
+20240225 17:57:20 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 17:57:20 ERROR [main] stepdef.Hooks Hooks.java219 - Error occurred while navigating to URL: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Nitins-MacBook-Pro.local', ip: '2601:646:8084:4d20:0:0:0:ca3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.184, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: /var/folders/gx/qjsbcn6d6d3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 28bfb8b18b8351d1cdf998062ee53507
+20240225 17:57:20 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 17:57:20 ERROR [main] stepdef.Hooks Hooks.java219 - Error occurred while navigating to URL: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Nitins-MacBook-Pro.local', ip: '2601:646:8084:4d20:0:0:0:ca3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.184, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: /var/folders/gx/qjsbcn6d6d3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 28bfb8b18b8351d1cdf998062ee53507
+20240225 18:00:24 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 18:00:24 INFO  [main] stepdef.Hooks Hooks.java124 - Browser instance has started
+20240225 18:00:27 INFO  [main] stepdef.Hooks Hooks.java216 - https://login.salesforce.com/ is entered
+20240225 18:00:27 INFO  [main] stepdef.Hooks Hooks.java230 - Waiting until page loads within  expectedtime period
+20240225 18:00:27 INFO  [main] stepdef.Login_stepdef Login_stepdef.java39 - ........ Initialized a  driver and launched Url successfully---------------
+20240225 18:00:27 INFO  [main] stepdef.Login_stepdef Login_stepdef.java49 - Login | Salesforce  matched with Login | Salesforce
+20240225 18:00:27 INFO  [main] stepdef.Login_stepdef Login_stepdef.java59 - All Assertons passed
+20240225 18:00:27 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (5c61913935e9f2193f3ccafc64fc7d7f)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240225 18:00:27 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240225 18:00:28 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (5c61913935e9f2193f3ccafc64fc7d7f)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240225 18:00:28 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240225 18:00:28 INFO  [main] stepdef.Login_stepdef Login_stepdef.java75 - Enter empty data
+20240225 18:00:28 INFO  [main] base.BasePage BasePage.java68 - login buttonIs enabled and clicked
+20240225 18:00:28 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = Please enter your password.
+20240225 18:00:28 INFO  [main] stepdef.Login_stepdef Login_stepdef.java97 - Please enter your password.  matched with Please enter your password.
+20240225 18:00:28 INFO  [main] stepdef.Login_stepdef Login_stepdef.java111 - All Assertons passed
+20240225 18:00:28 INFO  [main] stepdef.Login_stepdef Login_stepdef.java124 - Expected text 'Login | Salesforce' found on the page.
+20240225 18:00:28 INFO  [main] stepdef.Login_stepdef Login_stepdef.java134 - All Assertons passed
+20240225 18:00:29 INFO  [main] stepdef.Hooks Hooks.java207 - browser is closed
+20240225 18:00:29 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 18:00:29 ERROR [main] stepdef.Hooks Hooks.java219 - Error occurred while navigating to URL: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Nitins-MacBook-Pro.local', ip: '2601:646:8084:4d20:0:0:0:ca3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.184, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: /var/folders/gx/qjsbcn6d6d3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56413}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5c61913935e9f2193f3ccafc64fc7d7f
+20240225 18:00:29 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 18:00:29 ERROR [main] stepdef.Hooks Hooks.java219 - Error occurred while navigating to URL: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Nitins-MacBook-Pro.local', ip: '2601:646:8084:4d20:0:0:0:ca3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.184, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: /var/folders/gx/qjsbcn6d6d3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56413}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5c61913935e9f2193f3ccafc64fc7d7f
+20240225 18:00:29 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 18:00:29 ERROR [main] stepdef.Hooks Hooks.java219 - Error occurred while navigating to URL: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Nitins-MacBook-Pro.local', ip: '2601:646:8084:4d20:0:0:0:ca3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.184, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: /var/folders/gx/qjsbcn6d6d3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56413}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5c61913935e9f2193f3ccafc64fc7d7f
+20240225 18:00:29 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 18:00:29 ERROR [main] stepdef.Hooks Hooks.java219 - Error occurred while navigating to URL: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Nitins-MacBook-Pro.local', ip: '2601:646:8084:4d20:0:0:0:ca3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.184, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: /var/folders/gx/qjsbcn6d6d3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56413}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5c61913935e9f2193f3ccafc64fc7d7f
+20240225 18:02:22 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 18:02:23 INFO  [main] stepdef.Hooks Hooks.java124 - Browser instance has started
+20240225 18:02:25 INFO  [main] stepdef.Hooks Hooks.java216 - https://login.salesforce.com/ is entered
+20240225 18:02:25 INFO  [main] stepdef.Hooks Hooks.java230 - Waiting until page loads within  expectedtime period
+20240225 18:02:25 INFO  [main] stepdef.Login_stepdef Login_stepdef.java39 - ........ Initialized a  driver and launched Url successfully---------------
+20240225 18:02:25 INFO  [main] stepdef.Login_stepdef Login_stepdef.java49 - Login | Salesforce  matched with Login | Salesforce
+20240225 18:02:25 INFO  [main] stepdef.Login_stepdef Login_stepdef.java59 - All Assertons passed
+20240225 18:02:25 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (8528f1262c3621216c7df2d72aff3818)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240225 18:02:26 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240225 18:02:26 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (8528f1262c3621216c7df2d72aff3818)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240225 18:02:26 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240225 18:02:26 INFO  [main] stepdef.Login_stepdef Login_stepdef.java75 - Enter empty data
+20240225 18:02:27 INFO  [main] base.BasePage BasePage.java68 - login buttonIs enabled and clicked
+20240225 18:02:27 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = Please enter your password.
+20240225 18:02:27 INFO  [main] stepdef.Login_stepdef Login_stepdef.java97 - Please enter your password.  matched with Please enter your password.
+20240225 18:02:27 INFO  [main] stepdef.Login_stepdef Login_stepdef.java111 - All Assertons passed
+20240225 18:02:27 INFO  [main] stepdef.Login_stepdef Login_stepdef.java124 - Expected text 'Login | Salesforce' found on the page.
+20240225 18:02:27 INFO  [main] stepdef.Login_stepdef Login_stepdef.java134 - All Assertons passed
+20240225 18:02:27 INFO  [main] stepdef.Hooks Hooks.java207 - browser is closed
+20240225 18:02:27 INFO  [main] stepdef.Hooks Hooks.java78 - ******tearDownAftereachScenario executed***********
+20240225 18:02:27 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 18:02:27 ERROR [main] stepdef.Hooks Hooks.java219 - Error occurred while navigating to URL: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Nitins-MacBook-Pro.local', ip: '2601:646:8084:4d20:0:0:0:ca3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.184, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: /var/folders/gx/qjsbcn6d6d3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56468}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8528f1262c3621216c7df2d72aff3818
+20240225 18:02:27 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 18:02:27 ERROR [main] stepdef.Hooks Hooks.java219 - Error occurred while navigating to URL: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Nitins-MacBook-Pro.local', ip: '2601:646:8084:4d20:0:0:0:ca3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.184, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: /var/folders/gx/qjsbcn6d6d3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56468}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8528f1262c3621216c7df2d72aff3818
+20240225 18:02:27 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 18:02:27 ERROR [main] stepdef.Hooks Hooks.java219 - Error occurred while navigating to URL: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Nitins-MacBook-Pro.local', ip: '2601:646:8084:4d20:0:0:0:ca3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.184, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: /var/folders/gx/qjsbcn6d6d3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56468}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8528f1262c3621216c7df2d72aff3818
+20240225 18:02:27 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 18:02:27 ERROR [main] stepdef.Hooks Hooks.java219 - Error occurred while navigating to URL: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Nitins-MacBook-Pro.local', ip: '2601:646:8084:4d20:0:0:0:ca3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.184, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: /var/folders/gx/qjsbcn6d6d3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56468}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8528f1262c3621216c7df2d72aff3818
+20240225 18:05:07 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 18:05:08 INFO  [main] stepdef.Hooks Hooks.java124 - Browser instance has started
+20240225 18:05:11 INFO  [main] stepdef.Hooks Hooks.java216 - https://login.salesforce.com/ is entered
+20240225 18:05:11 INFO  [main] stepdef.Hooks Hooks.java230 - Waiting until page loads within  expectedtime period
+20240225 18:05:11 INFO  [main] stepdef.Login_stepdef Login_stepdef.java39 - ........ Initialized a  driver and launched Url successfully---------------
+20240225 18:05:11 INFO  [main] stepdef.Login_stepdef Login_stepdef.java49 - Login | Salesforce  matched with Login | Salesforce
+20240225 18:05:11 INFO  [main] stepdef.Login_stepdef Login_stepdef.java59 - All Assertons passed
+20240225 18:05:11 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (9f73f539a0c64a8936ff1dea967a2325)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240225 18:05:12 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240225 18:05:12 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (9f73f539a0c64a8936ff1dea967a2325)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240225 18:05:12 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240225 18:05:12 INFO  [main] stepdef.Login_stepdef Login_stepdef.java75 - Enter empty data
+20240225 18:05:13 INFO  [main] base.BasePage BasePage.java68 - login buttonIs enabled and clicked
+20240225 18:05:13 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = Please enter your password.
+20240225 18:05:13 INFO  [main] stepdef.Login_stepdef Login_stepdef.java97 - Please enter your password.  matched with Please enter your password.
+20240225 18:05:13 INFO  [main] stepdef.Login_stepdef Login_stepdef.java111 - All Assertons passed
+20240225 18:05:13 INFO  [main] stepdef.Login_stepdef Login_stepdef.java124 - Expected text 'Login | Salesforce' found on the page.
+20240225 18:05:13 INFO  [main] stepdef.Login_stepdef Login_stepdef.java134 - All Assertons passed
+20240225 18:05:13 INFO  [main] stepdef.Hooks Hooks.java207 - browser is closed
+20240225 18:05:13 INFO  [main] stepdef.Hooks Hooks.java78 - ******tearDownAftereachScenario executed***********
+20240225 18:05:13 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 18:05:13 ERROR [main] stepdef.Hooks Hooks.java219 - Error occurred while navigating to URL: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Nitins-MacBook-Pro.local', ip: '2601:646:8084:4d20:0:0:0:ca3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.184, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: /var/folders/gx/qjsbcn6d6d3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56549}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f73f539a0c64a8936ff1dea967a2325
+20240225 18:05:13 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 18:05:13 ERROR [main] stepdef.Hooks Hooks.java219 - Error occurred while navigating to URL: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Nitins-MacBook-Pro.local', ip: '2601:646:8084:4d20:0:0:0:ca3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.184, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: /var/folders/gx/qjsbcn6d6d3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56549}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f73f539a0c64a8936ff1dea967a2325
+20240225 18:05:13 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 18:05:13 ERROR [main] stepdef.Hooks Hooks.java219 - Error occurred while navigating to URL: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Nitins-MacBook-Pro.local', ip: '2601:646:8084:4d20:0:0:0:ca3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.184, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: /var/folders/gx/qjsbcn6d6d3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56549}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f73f539a0c64a8936ff1dea967a2325
+20240225 18:05:14 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 18:05:14 ERROR [main] stepdef.Hooks Hooks.java219 - Error occurred while navigating to URL: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Nitins-MacBook-Pro.local', ip: '2601:646:8084:4d20:0:0:0:ca3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.184, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: /var/folders/gx/qjsbcn6d6d3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56549}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f73f539a0c64a8936ff1dea967a2325
+20240225 18:12:20 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 18:12:20 INFO  [main] stepdef.Hooks Hooks.java124 - Browser instance has started
+20240225 18:12:23 INFO  [main] stepdef.Hooks Hooks.java216 - https://login.salesforce.com/ is entered
+20240225 18:12:23 INFO  [main] stepdef.Hooks Hooks.java230 - Waiting until page loads within  expectedtime period
+20240225 18:12:23 INFO  [main] stepdef.Login_stepdef Login_stepdef.java39 - ........ Initialized a  driver and launched Url successfully---------------
+20240225 18:12:23 INFO  [main] stepdef.Login_stepdef Login_stepdef.java49 - Login | Salesforce  matched with Login | Salesforce
+20240225 18:12:23 INFO  [main] stepdef.Login_stepdef Login_stepdef.java59 - All Assertons passed
+20240225 18:12:23 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (ff5f9bbf0d436e2e159f69d0cff1bbb8)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240225 18:12:24 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240225 18:12:24 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (ff5f9bbf0d436e2e159f69d0cff1bbb8)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240225 18:12:24 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240225 18:12:24 INFO  [main] stepdef.Login_stepdef Login_stepdef.java75 - Enter empty data
+20240225 18:12:25 INFO  [main] base.BasePage BasePage.java68 - login buttonIs enabled and clicked
+20240225 18:12:25 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = Please enter your password.
+20240225 18:12:25 INFO  [main] stepdef.Login_stepdef Login_stepdef.java97 - Please enter your password.  matched with Please enter your password.
+20240225 18:12:25 INFO  [main] stepdef.Login_stepdef Login_stepdef.java111 - All Assertons passed
+20240225 18:12:25 INFO  [main] stepdef.Login_stepdef Login_stepdef.java124 - Expected text 'Login | Salesforce' found on the page.
+20240225 18:12:25 INFO  [main] stepdef.Login_stepdef Login_stepdef.java134 - All Assertons passed
+20240225 18:12:25 INFO  [main] stepdef.Hooks Hooks.java207 - browser is closed
+20240225 18:12:25 INFO  [main] stepdef.Hooks Hooks.java78 - ******tearDownAftereachScenario executed***********
+20240225 18:12:25 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 18:12:25 INFO  [main] stepdef.Hooks Hooks.java124 - Browser instance has started
+20240225 18:12:27 INFO  [main] stepdef.Hooks Hooks.java216 - https://login.salesforce.com/ is entered
+20240225 18:12:27 INFO  [main] stepdef.Hooks Hooks.java230 - Waiting until page loads within  expectedtime period
+20240225 18:12:27 INFO  [main] stepdef.Login_stepdef Login_stepdef.java39 - ........ Initialized a  driver and launched Url successfully---------------
+20240225 18:12:27 INFO  [main] stepdef.Login_stepdef Login_stepdef.java49 - Login | Salesforce  matched with Login | Salesforce
+20240225 18:12:27 INFO  [main] stepdef.Login_stepdef Login_stepdef.java59 - All Assertons passed
+20240225 18:12:27 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (f16f409e9ebf6a9088d9bdd7773d05f5)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240225 18:12:28 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240225 18:12:28 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (f16f409e9ebf6a9088d9bdd7773d05f5)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240225 18:12:28 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240225 18:12:33 INFO  [main] base.BasePage BasePage.java68 - login buttonIs enabled and clicked
+20240225 18:12:33 INFO  [main] stepdef.Login_stepdef Login_stepdef.java151 - User is lands to the Home Page
+20240225 18:12:33 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = Home
+20240225 18:12:33 INFO  [main] stepdef.Login_stepdef Login_stepdef.java163 - Expected text Home matches to the Actual Text: Home
+20240225 18:12:33 INFO  [main] stepdef.Login_stepdef Login_stepdef.java174 - All Assertons passed
+20240225 18:12:33 INFO  [main] stepdef.Hooks Hooks.java207 - browser is closed
+20240225 18:12:33 INFO  [main] stepdef.Hooks Hooks.java78 - ******tearDownAftereachScenario executed***********
+20240225 18:12:33 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 18:12:33 INFO  [main] stepdef.Hooks Hooks.java124 - Browser instance has started
+20240225 18:12:35 INFO  [main] stepdef.Hooks Hooks.java216 - https://login.salesforce.com/ is entered
+20240225 18:12:35 INFO  [main] stepdef.Hooks Hooks.java230 - Waiting until page loads within  expectedtime period
+20240225 18:12:35 INFO  [main] stepdef.Login_stepdef Login_stepdef.java39 - ........ Initialized a  driver and launched Url successfully---------------
+20240225 18:12:35 INFO  [main] stepdef.Login_stepdef Login_stepdef.java49 - Login | Salesforce  matched with Login | Salesforce
+20240225 18:12:35 INFO  [main] stepdef.Login_stepdef Login_stepdef.java59 - All Assertons passed
+20240225 18:12:35 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (fb1591a376c64f03fcc11e75655748d2)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240225 18:12:35 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240225 18:12:36 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (fb1591a376c64f03fcc11e75655748d2)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240225 18:12:36 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240225 18:12:36 INFO  [main] stepdef.Login_stepdef Login_stepdef.java184 - Password is entered
+20240225 18:12:36 INFO  [main] base.BasePage BasePage.java68 - Remember Me check box Is enabled and clicked
+20240225 18:12:36 INFO  [main] stepdef.Login_stepdef Login_stepdef.java188 - Remember Me check box clicked 
+20240225 18:12:38 INFO  [main] base.BasePage BasePage.java68 - login buttonIs enabled and clicked
+20240225 18:12:38 INFO  [main] stepdef.Login_stepdef Login_stepdef.java151 - User is lands to the Home Page
+20240225 18:12:38 INFO  [main] stepdef.Login_stepdef Login_stepdef.java197 - User  redirects to Home Page
+20240225 18:12:40 INFO  [main] stepdef.Login_stepdef Login_stepdef.java205 - Home Page ~ Salesforce - Developer Edition  matched with Home Page ~ Salesforce - Developer Edition
+20240225 18:12:40 INFO  [main] stepdef.Login_stepdef Login_stepdef.java215 - All Assertons passed
+20240225 18:12:42 INFO  [main] base.BasePage BasePage.java87 - Username Label  IS WAITED FOR VISIBLITY
+20240225 18:12:42 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = sweety123@yahoo.com
+20240225 18:12:42 INFO  [main] stepdef.Login_stepdef Login_stepdef.java231 - sweety123@yahoo.com  matched with sweety123@yahoo.com
+20240225 18:12:42 INFO  [main] stepdef.Login_stepdef Login_stepdef.java241 - All Assertons passed
+20240225 18:12:43 INFO  [main] stepdef.Hooks Hooks.java207 - browser is closed
+20240225 18:12:43 INFO  [main] stepdef.Hooks Hooks.java78 - ******tearDownAftereachScenario executed***********
+20240225 18:12:43 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 18:12:43 INFO  [main] stepdef.Hooks Hooks.java124 - Browser instance has started
+20240225 18:12:45 INFO  [main] stepdef.Hooks Hooks.java216 - https://login.salesforce.com/ is entered
+20240225 18:12:45 INFO  [main] stepdef.Hooks Hooks.java230 - Waiting until page loads within  expectedtime period
+20240225 18:12:45 INFO  [main] stepdef.Login_stepdef Login_stepdef.java39 - ........ Initialized a  driver and launched Url successfully---------------
+20240225 18:12:45 INFO  [main] stepdef.Login_stepdef Login_stepdef.java49 - Login | Salesforce  matched with Login | Salesforce
+20240225 18:12:45 INFO  [main] stepdef.Login_stepdef Login_stepdef.java59 - All Assertons passed
+20240225 18:12:45 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (c6b9d98c2910e20ee12c3c1d28c3654f)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240225 18:12:45 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240225 18:12:45 INFO  [main] base.BasePage BasePage.java68 - Forgot ButtonIs enabled and clicked
+20240225 18:12:45 INFO  [main] stepdef.Login_stepdef Login_stepdef.java257 - Forgot Your Password | Salesforce  matched with Forgot Your Password | Salesforce
+20240225 18:12:45 INFO  [main] base.BasePage BasePage.java87 - User Name  IS WAITED FOR VISIBLITY
+20240225 18:12:45 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (c6b9d98c2910e20ee12c3c1d28c3654f)] -> xpath: //input[@id='un']]Is enabled and clicked
+20240225 18:12:46 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240225 18:12:46 INFO  [main] stepdef.Login_stepdef Login_stepdef.java273 - All Assertons passed
+20240225 18:12:46 INFO  [main] base.BasePage BasePage.java68 - Continue Is enabled and clicked
+20240225 18:12:46 INFO  [main] stepdef.Login_stepdef Login_stepdef.java292 - Check Your Email | Salesforce  matched with Check Your Email | Salesforce
+20240225 18:12:46 INFO  [main] stepdef.Login_stepdef Login_stepdef.java303 - All Assertons passed
+20240225 18:12:47 INFO  [main] stepdef.Hooks Hooks.java207 - browser is closed
+20240225 18:12:47 INFO  [main] stepdef.Hooks Hooks.java78 - ******tearDownAftereachScenario executed***********
+20240225 18:12:47 INFO  [main] stepdef.Hooks Hooks.java63 - .........Before setUp executed --------------
+20240225 18:12:47 INFO  [main] stepdef.Hooks Hooks.java124 - Browser instance has started
+20240225 18:12:48 INFO  [main] stepdef.Hooks Hooks.java216 - https://login.salesforce.com/ is entered
+20240225 18:12:48 INFO  [main] stepdef.Hooks Hooks.java230 - Waiting until page loads within  expectedtime period
+20240225 18:12:48 INFO  [main] stepdef.Login_stepdef Login_stepdef.java39 - ........ Initialized a  driver and launched Url successfully---------------
+20240225 18:12:48 INFO  [main] stepdef.Login_stepdef Login_stepdef.java49 - Login | Salesforce  matched with Login | Salesforce
+20240225 18:12:48 INFO  [main] stepdef.Login_stepdef Login_stepdef.java59 - All Assertons passed
+20240225 18:12:49 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (155a390969aa653a3e2ef5692b1e67d6)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240225 18:12:49 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240225 18:12:49 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (155a390969aa653a3e2ef5692b1e67d6)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240225 18:12:49 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240225 18:12:49 INFO  [main] stepdef.Login_stepdef Login_stepdef.java311 - User enters invalid password
+20240225 18:12:50 INFO  [main] base.BasePage BasePage.java68 - login buttonIs enabled and clicked
+20240225 18:12:50 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = Please check your username and password. If you still can't log in, contact your Salesforce administrator.
+20240225 18:12:50 INFO  [main] stepdef.Login_stepdef Login_stepdef.java321 - Please check your username and password. If you still can't log in, contact your Salesforce administrator.  matched with Please check your username and password. If you still can't log in, contact your Salesforce administrator.
+20240225 18:12:50 INFO  [main] stepdef.Login_stepdef Login_stepdef.java324 - All Assertons passed
+20240225 18:12:50 INFO  [main] stepdef.Login_stepdef Login_stepdef.java124 - Expected text 'Login | Salesforce' found on the page.
+20240225 18:12:50 INFO  [main] stepdef.Login_stepdef Login_stepdef.java134 - All Assertons passed
+20240225 18:12:50 INFO  [main] stepdef.Hooks Hooks.java207 - browser is closed
+20240225 18:12:50 INFO  [main] stepdef.Hooks Hooks.java78 - ******tearDownAftereachScenario executed***********
+20240225 18:17:01 INFO  [main] stepdef.Login_stepdef Login_stepdef.java40 - ........ Initialized a  driver and launched Url successfully---------------
+20240225 18:17:01 INFO  [main] stepdef.Login_stepdef Login_stepdef.java40 - ........ Initialized a  driver and launched Url successfully---------------
+20240225 18:17:02 INFO  [main] stepdef.Login_stepdef Login_stepdef.java40 - ........ Initialized a  driver and launched Url successfully---------------
+20240225 18:17:02 INFO  [main] stepdef.Login_stepdef Login_stepdef.java40 - ........ Initialized a  driver and launched Url successfully---------------
+20240225 18:17:02 INFO  [main] stepdef.Login_stepdef Login_stepdef.java40 - ........ Initialized a  driver and launched Url successfully---------------
